@@ -19,6 +19,7 @@ body{
     padding: 10px;
     font-size: 20px;
     border: none;
+    text-decoration: none;
   }
 .dropdown {
     position: relative;
@@ -57,10 +58,12 @@ body{
     text-align: center;
     text-decoration: none;
 }
+
 .nodrop:hover {background-color: rgba(207, 195, 197, 0.8);}
 .dropdown-content a:hover {background-color: rgba(207, 195, 197, 0.8);}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropdownbtn {background-color: rgba(207, 195, 197, 0.8);}
+
 .trailer {
     margin-left:auto;
     margin-right:auto;
@@ -109,4 +112,18 @@ body{
     margin-left:auto;
     margin-right: auto;
     justify-content: center;
+}
+.banner2 {
+    width: 1500px;
+    height: 650px;
+}
+.separate{
+    display: flex;
+    flex-direction: row;
+    flex: 0 45%;
+    flex-wrap: wrap;
+    color: white;
+}
+.division{
+    display: flex;
 }
