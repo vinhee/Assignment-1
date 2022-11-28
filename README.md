@@ -6,9 +6,11 @@ For my Assignment 1, the product I decided to choose is Cookie Run : Kingdom. It
 
 ## Media : Homepage (index.html)
 
-- banner.jpg was taken from : https://cdn.realsport101.com/images/ncavvykf/gfinityesports/054e3f650b8d2f0cb920d42b7b48027fbba05289-1280x755.jpg?rect=0,17,1280,720&w=686&h=386&auto=format
+- banner.jpg was taken from : https://www.cookierun-kingdom.com/og-en.jpg
 
 Trailer was taken from : https://youtu.be/0p4ic2Dh0HY
+
+Macaron Cookie : https://static.wikia.nocookie.net/cookierunkingdom/images/2/2c/Macaron_gacha_illustration.png/revision/latest/scale-to-width-down/350?cb=20221111060932
 
 Social Media Icons:
 
@@ -20,5 +22,17 @@ Social Media Icons:
 ## Media : Gameplay
 
 ## Media : Characters
+
+- Dark Cacao : https://static.wikia.nocookie.net/cookierunkingdom/images/9/96/Darkcacaoillust_nl.png/revision/latest/scale-to-width-down/350?cb=20220225203358
+- Hollyberry : https://static.wikia.nocookie.net/cookierunkingdom/images/8/8c/Holly_illust.png/revision/latest/scale-to-width-down/350?cb=20211103030509
+- Pure Vanilla : https://static.wikia.nocookie.net/cookierunkingdom/images/8/81/Pure-vanilla-cookie.png/revision/latest/scale-to-width-down/350?cb=20211102083437
+- Black Pearl : https://static.wikia.nocookie.net/cookierunkingdom/images/f/fb/Black_pearl_illustration.png/revision/latest/scale-to-width-down/350?cb=20220908061933
+- Frost Queen : https://static.wikia.nocookie.net/cookierunkingdom/images/1/15/Frost_queen_cookie.png/revision/latest/scale-to-width-down/350?cb=20211118165407
+- Sea Fairy : https://static.wikia.nocookie.net/cookierunkingdom/images/4/48/Sea_fairy_2.png/revision/latest/scale-to-width-down/350?cb=20211030184800
+- Clotted Cream : https://static.wikia.nocookie.net/cookierunkingdom/images/6/65/Clotted_cream_gacha_art.png/revision/latest/scale-to-width-down/350?cb=20220510060440
+- Oyster : https://static.wikia.nocookie.net/cookierunkingdom/images/e/eb/Oyster_gacha_illustration.png/revision/latest/scale-to-width-down/350?cb=20220617173805
+- Caramel Arrow : https://static.wikia.nocookie.net/cookierunkingdom/images/a/a2/CaramelArrowIllust.png/revision/latest/scale-to-width-down/350?cb=20220329141823
+- Crunchy Chip : https://static.wikia.nocookie.net/cookierunkingdom/images/7/73/Crunchy_chip_gacha_portait.png/revision/latest/scale-to-width-down/350?cb=20220601162147
+- Wildberry : https://static.wikia.nocookie.net/cookierunkingdom/images/d/db/Wildberry_gacha_art.png/revision/latest/scale-to-width-down/350?cb=20220510060359
 
 ## Media : Forum
