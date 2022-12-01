@@ -1,6 +1,6 @@
 # Assignment-1 : Woon Vin Hee
 
-For my Assignment 1, the product I decided to choose is Cookie Run : Kingdom. It is a gacha game where players can build their cookies to go against other players or go through the main storyline. Not only that, players are also able to challenge themselves through other game modes like "Arena" and even more different game modes which are explained in the gameplay page!
+For my Assignment 1, the product I decided to choose is Cookie Run : Kingdom. It is a gacha game where players can build their cookies to go against other players or go through the main storyline. Not only that, players are also able to challenge themselves through other game modes like "Arena" and even more different game modes which are explained in the gameplay page.
 
 # Credits
 
@@ -21,6 +21,14 @@ Social Media Icons:
 
 ## Media : Gameplay
 
+- World Map : Taken from the game itself\*
+- Arena : Taken from the game itself\*
+- Guild Battle : Taken from the game itself\*
+- Gacha : Taken from the game itself\*
+- Toppings : Taken from the game itself\*
+
+\*: Game is Cookie Run Kingdom
+
 ## Media : Characters
 
 - Dark Cacao : https://static.wikia.nocookie.net/cookierunkingdom/images/9/96/Darkcacaoillust_nl.png/revision/latest/scale-to-width-down/350?cb=20220225203358
@@ -34,5 +42,7 @@ Social Media Icons:
 - Caramel Arrow : https://static.wikia.nocookie.net/cookierunkingdom/images/a/a2/CaramelArrowIllust.png/revision/latest/scale-to-width-down/350?cb=20220329141823
 - Crunchy Chip : https://static.wikia.nocookie.net/cookierunkingdom/images/7/73/Crunchy_chip_gacha_portait.png/revision/latest/scale-to-width-down/350?cb=20220601162147
 - Wildberry : https://static.wikia.nocookie.net/cookierunkingdom/images/d/db/Wildberry_gacha_art.png/revision/latest/scale-to-width-down/350?cb=20220510060359
+
+- All information were taken from : https://cookierunkingdom.fandom.com/wiki/Cookie_Run:_Kingdom_Wiki
 
 ## Media : Forum

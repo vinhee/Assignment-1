@@ -196,6 +196,19 @@ body{
     background-color: white; 
     border-radius: 10px; 
   }
+  .post {
+    flex-direction: column;
+    background-color:rgba(111, 78, 55,0.6);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    border-radius: 15px; 
+    margin: 15px auto 15px auto;
+    color: rgb(219, 191, 145);
+  }
+  .list {
+    margin: 20px;
+  }
 @media only screen and (max-width:980px){
     .division {
         display: grid;
