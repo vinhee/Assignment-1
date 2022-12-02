@@ -11,22 +11,27 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="#" class="toggle-button"> <span class="bar"></span> <span class="bar"></span> <span
-                class="bar"></span></a>
-        <a class="nodrop" href="index.html">Home</a>
-        <a class="nodrop" href="Gameplay.html">Gameplay</a>
-        <div class="dropdown">
-            <div class="dropdownbtn"><a href="Characters.html">Characters</a></div>
-            <div class="dropdown-content">
-                <a href="#Ancient">Ancient</a>
-                <a href="#Legendary">Legendary</a>
-                <a href="#SuperEpic">Super Epic</a>
-                <a href="#Epic">Epic</a>
-            </div>
-        </div>
-        <a class="nodrop" href="Forum.html">Forum</a>
-    </div>
+    <header>
+        <a href="#" class="logo"></a>
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gameplay.html">Gameplay</a></li>
+                <li><a href="Characters.html">Characters</a>
+                    <ul>
+                        <li><a href="Characters.html#Ancient">Ancient</a></li>
+                        <li><a href="Characters.html#Legendary">Legendary</a></li>
+                        <li><a href="Characters.html#SuperEpic">Super Epic</a></li>
+                        <li><a href="Characters.html#Epic">Epic</a></li>
+                    </ul>
+                </li>
+                <li><a href="Forum.html">Forum</a></li>
+
+            </ul>
+        </nav>
+    </header>
     <br>
     <br>
     <img class="banner" src="Images/banner.jpg" alt="homebanner">

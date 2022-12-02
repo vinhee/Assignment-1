@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
@@ -18,73 +19,61 @@ body{
     object-fit: cover;
 
 }
-.dropdownbtn { /*"Character Button*/
-    font-weight: bold;
-    text-align: center;
-    width: 140px;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-    border: none;
-    text-decoration: none;
-  }
-.dropdownbtn a{
-    text-decoration: none;
-    color: white;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-} 
-.dropdown-content {
-    font-weight: bold;
-    text-align: center;
-    display: none;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.8);
-    min-width: 140px;
-    z-index: 1;
-    text-decoration: none;
-}
-.navbar {
+/* Navigation Bar */
+header{
     position: fixed;
-    top: 0;
-    width: 100%;
-    background-color:rgba(0, 0, 0, 0.8); /*background colour of buttons*/
-    color: white;
-    padding: 16px;
+    top:0; left:0; right:0;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+header .navbar ul{
+    list-style: none; 
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+}
+header .navbar ul li a{
     font-size: 20px;
-    text-decoration: none;
-}
-.dropdown-content a {
-    border: 2px bold rgba(207, 195, 197, 0.8);
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.nodrop{
-    font-weight: bold;
-    display: inline;
+    padding: 20px;
     color: white;
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
-}
-.nodrop:hover {background-color: rgba(207, 195, 197, 0.8);}
-.dropdown-content a:hover {
-    background-color: rgba(207, 195, 197, 0.8);
-    text-decoration: none;
-}
-.dropdown:hover .dropdown-content {
     display: block;
-    text-decoration: none;
 }
-.dropdown:hover .dropdownbtn {
-    background-color: rgba(207, 195, 197, 0.8);
-    text-decoration: none;
+header .navbar ul li a:hover{
+    background: rgba(103, 98, 98);
+    color: black;
 }
+header .navbar ul li ul{
+    position: absolute;
+    left:0;
+    width:200px;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+header .navbar ul li ul li{
+    width:100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+}
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    display: none;
+    align-items: left;
+} 
 
 .trailer {
     margin-left:auto;
@@ -159,7 +148,7 @@ body{
     margin: 10px;
 }
 .split {
-    margin: 20px;
+    margin: 20px 20px 20px 40px;
 }
 .functions{
     display: inline-block;
@@ -206,10 +195,40 @@ body{
     margin: 15px auto 15px auto;
     color: rgb(219, 191, 145);
   }
-  .list {
-    margin: 20px;
-  }
 @media only screen and (max-width:980px){
+
+    /* NAVIGATION BAR */
+
+    header {
+        padding: 20px;
+    }
+
+    header label {
+        display: initial;
+    }
+    
+    header .navbar{
+        position: absolute;
+        top:100%; left:0; right:0;
+        background:rgba(0, 0, 0, 0.8);
+        border-top: 1px solid rgba(0, 0, 0, 0.8);
+        display: none;
+    }
+    header .navbar ul li{
+        width:100%;
+    }
+    header .navbar ul li ul{
+        position:relative;
+        width:100%;
+    }
+    header .navbar ul li ul li{
+        background-color: rgba(0, 0, 0, 0.8);
+        color: black;
+    }
+    #menu-bar:checked ~ .navbar {
+        display: initial;
+    }
+
     .division {
         display: grid;
         grid-template-columns: 1fr;
@@ -243,10 +262,5 @@ body{
     .trailer{
         width: 80%;
         height: 100%;
-    }
-    .navbar {
-        overflow: hidden;
-        color: white;
-        position: relative;
     }
 }
