@@ -1,8 +1,42 @@
 # Assignment-1 : Woon Vin Hee
 
-For my Assignment 1, the product I decided to choose is Cookie Run : Kingdom. It is a gacha game where players can build their cookies to go against other players or go through the main storyline. Not only that, players are also able to challenge themselves through other game modes like "Arena" and even more different game modes which are explained in the gameplay page.
+For my Assignment 1, the product I decided to choose is Cookie Run : Kingdom. It is a gacha game where players can build their cookies to go against other players or go through the main storyline. Not only that, players are also able to challenge themselves through other game modes like "Arena" or "Guild Battle" and even more different game functions which are explained in the gameplay page.
+
+Purpose:
+The purpose of this website is to provide information of the game and the characters to the potential players or players. A forum webpage is added to allow players to get help from other players or even discuss some topics they may be interested in.
+
+## Languages Used
+
+- HTML
+- CSS
+- Javascript
+
+## Colours Used:
+
+Purpose was to acheive a colour scheme that matches the ambience of the game. Chose a shade of brown as the background colour to be as similar to a cookie's colour. I used colours that match well with this certain shade of brown.
+
+- rgb(89, 77, 70) (Background)
+- rgba(0, 0, 0, 0.8) (Nav Bar)
+- rgba(103, 98, 98) (Hover Button)
+- rgb(219, 191, 145) (text)
+- rgba(111, 78, 55,0.6) (Division)
+- White
+- Black
+
+## Fonts Used:
+
+Purpose was to give off a fantasy vibe because the game is a fantasy theme. Hence, the fonts I chose, to me, gave off the feelings of mythical and fun.
+
+- Abril Fatface (Titles or Headings)
+- Crimson Text (Details)
+- Sen (Footer)
+- Sigmar One (Nav Bar Headers)
 
 # Credits
+
+## Nav Bar
+
+Navbar Hamburger : https://www.youtube.com/watch?v=bk3Y4heVdFs
 
 ## Media : Homepage (index.html)
 
@@ -21,13 +55,13 @@ Social Media Icons:
 
 ## Media : Gameplay
 
-- World Map : Taken from the game itself\*
-- Arena : Taken from the game itself\*
-- Guild Battle : Taken from the game itself\*
-- Gacha : Taken from the game itself\*
-- Toppings : Taken from the game itself\*
+- World Map : Taken from the game itself
+- Arena : Taken from the game itself
+- Guild Battle : Taken from the game itself
+- Gacha : Taken from the game itself
+- Toppings : Taken from the game itself
 
-\*: Game is Cookie Run Kingdom
+All images were taken as a screenshot in the game (Cookie Run : Kingdom)
 
 ## Media : Characters
 
@@ -46,3 +80,7 @@ Social Media Icons:
 - All information were taken from : https://cookierunkingdom.fandom.com/wiki/Cookie_Run:_Kingdom_Wiki
 
 ## Media : Forum
+
+Username Profile Picture: https://static.wikia.nocookie.net/cookierunkingdom/images/6/65/Clotted_cream_gacha_art.png/revision/latest/scale-to-width-down/350?cb=20220510060440
+Profile Picture 1: https://static.wikia.nocookie.net/cookierunkingdom/images/a/a2/CaramelArrowIllust.png/revision/latest/scale-to-width-down/350?cb=20220329141823
+Profile Picture 2: https://static.wikia.nocookie.net/cookierunkingdom/images/9/96/Darkcacaoillust_nl.png/revision/latest/scale-to-width-down/350?cb=20220225203358
