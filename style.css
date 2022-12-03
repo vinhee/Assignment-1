@@ -360,6 +360,7 @@
     
 }
 
+/*Background Color & Banner*/
 body{
     background-color:rgb(89, 77, 70);
 }
@@ -428,7 +429,7 @@ header label {
     display: none;
 } 
 
-
+/*Homepage*/
 .trailer {
     margin-left:auto;
     margin-right:auto;
@@ -447,14 +448,33 @@ header label {
     color: rgb(219, 191, 145);
     font-family: 'Sen', sans-serif;
 }
-.container{
-    display: flex;
-	width: 100%;
-	flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-around;
-
+.macaron{
+  display: inline-block;
+  width: 80%;
+  height: 80%;
+  margin-left: 50px;
+  margin-right: auto;
+  text-align: center;
 }
+.homeseparate {
+  font-size: 20px;
+  font-family: 'Crimson Text', serif;
+}
+.footer{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'Sen', sans-serif;
+}
+.icons{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+/*Characters*/
 .cookies{
     display: inline-block;
     width: 80%;
@@ -463,28 +483,7 @@ header label {
     margin-right: auto;
     text-align: center;
 }
-.macaron{
-    display: inline-block;
-    width: 80%;
-    height: 80%;
-    margin-left: 50px;
-    margin-right: auto;
-    text-align: center;
-}
-.footer{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    color:white;
-    background-color: rgba(0, 0, 0, 0.8);
-    font-family: 'Sen', sans-serif;
-}
-.icons{
-    display: inline-block;
-    width: 70px;
-    height: 70px;
-    margin: 10px;
-}
+
 .division{
     display: flex;
     align-items: center;
@@ -509,10 +508,14 @@ header label {
     margin: 10px;
     font-family: 'Crimson Text', serif;
 }
-.homeseparate {
-    font-size: 20px;
-    font-family: 'Crimson Text', serif;
+.title {
+  text-align: center;
+  color:rgb(219, 191, 145);
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive
 }
+/*Gameplay*/
 .subheading {
     text-align: center;
     font-weight: bold;
@@ -531,34 +534,7 @@ header label {
     text-align: center;
     margin: 10px;
 }
-.align {
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.title {
-    text-align: center;
-    color:rgb(219, 191, 145);
-    font-weight: bold;
-    font-size: 40px;
-    font-family: 'Abril Fatface', cursive
-}
-.toggle-button { 
-    position: absolute; 
-    top: 12px; 
-    right: 16px; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-between; 
-    width: 30px; 
-    height: 21px; 
-  } 
-  .toggle-button .bar { 
-    height: 3px; 
-    width: 100%; 
-    background-color: white; 
-    border-radius: 10px; 
-  }
+/*Forum*/
   .post {
     display: flex;
     align-items: center;
@@ -632,6 +608,7 @@ textarea {
     color: white;
     font-family: 'Sen', sans-serif;
 }
+/*Button back to top*/
 .topbutton {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
@@ -640,6 +617,7 @@ textarea {
     font-size: 20px;
 }
 
+/*Responsive*/
 @media only screen and (max-width:980px){
 
     /*Navigation Bar*/
@@ -673,16 +651,29 @@ textarea {
     #menu-bar:checked ~ .navbar {
         display: initial;
     }
+    /*Homepage Character*/
+    .macaron {
+      width: 80%;
+      height: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+  .homeseparate {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 
-    /*Trailer*/
-    .trailer {
+  /*Trailer*/
+  .trailer {
         width: 80%;
-    }
-    /*characters & gameplay */
-    .division {
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 90%;
+  }
+  /*Characters & Gameplay */
+  .division {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 90%;
     }
     .cookies {
         width: 80%;
@@ -691,21 +682,11 @@ textarea {
         margin-right: auto;
         display: block;
     }
-    .macaron {
-        width: 80%;
-        height: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
+    
     .separate2 {
         text-align: center;
     }
-    .homeseparate {
-        text-align: center;
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
+
     .functions {
         width: 100%;
         height: 100%;
@@ -724,6 +705,7 @@ textarea {
     .trailer{
         width: 80%;
     }
+    
     /*footer*/
     .icons {
         width: 15%;

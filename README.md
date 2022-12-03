@@ -37,6 +37,7 @@ Purpose was to give off a fantasy vibe because the game is a fantasy theme. Henc
 ## Nav Bar
 
 Navbar Hamburger : https://www.youtube.com/watch?v=bk3Y4heVdFs
+Scroll to Top Button : https://www.geeksforgeeks.org/scroll-to-the-top-of-the-page-using-javascript-jquery/
 
 ## Media : Homepage (index.html)
 
