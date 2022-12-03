@@ -37,6 +37,7 @@ Purpose was to give off a fantasy vibe because the game is a fantasy theme. Henc
 ## Nav Bar
 
 Navbar Hamburger : https://www.youtube.com/watch?v=bk3Y4heVdFs
+
 Scroll to Top Button : https://www.geeksforgeeks.org/scroll-to-the-top-of-the-page-using-javascript-jquery/
 
 ## Media : Homepage (index.html)
@@ -83,5 +84,7 @@ All images were taken as a screenshot in the game (Cookie Run : Kingdom)
 ## Media : Forum
 
 Username Profile Picture: https://static.wikia.nocookie.net/cookierunkingdom/images/6/65/Clotted_cream_gacha_art.png/revision/latest/scale-to-width-down/350?cb=20220510060440
+
 Profile Picture 1: https://static.wikia.nocookie.net/cookierunkingdom/images/a/a2/CaramelArrowIllust.png/revision/latest/scale-to-width-down/350?cb=20220329141823
+
 Profile Picture 2: https://static.wikia.nocookie.net/cookierunkingdom/images/9/96/Darkcacaoillust_nl.png/revision/latest/scale-to-width-down/350?cb=20220225203358
